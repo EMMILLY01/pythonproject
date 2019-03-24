@@ -1,0 +1,59 @@
+h1{
+  color:bisque;
+  text-align: center;
+  font-size: 90px;
+  border: 0px solid white;
+}
+
+ul{
+  text-align:center;
+  padding:10px;
+}
+
+li{
+  display: inline;
+  padding: 0px 10px 0px 10px;
+}
+
+a {
+  color: bisque
+}
+
+body{
+  /*
+  background:url("https://i.imgur.com/OBc3IKg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  */
+  background-position: center;
+  height: 100%;
+  color: bisque
+}
+
+html{
+  background:url("https://i.imgur.com/OBc3IKg.jpg");no-repeat center center fixed;
+  background-size: cover;
+
+Input [type="submit"] {
+  color: white;
+  align-items: center;
+}
+
+h2{
+  text-align: center;
+  position: center;
+  color:bisque;
+  background-color: white;
+}
+
+.social-buttons img {
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  display: inline-block;
+}
+  /*
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+}
