@@ -1,31 +1,102 @@
 <!DOCTYPE HTML>
-<html>
 
-<head>
+  <html lang="en" dir="ltr">
 
-  <title> About the Musicians </title>
-  <link rel="stylesheet" type="text/css" href="file:///Users/emilymould/Desktop/python/myproject/static/css/about.css">
-  <ul>
-    <li> <a href="file:///Users/emilymould/Desktop/python/myproject/templates/index.html">Welcome</a></li>
-    <li> <a href="file:///Users/emilymould/Desktop/python/myproject/templates/about.html">About the Musicians</a></li>
-  </ul>
-</head>
+  <head>
 
-<body>
-<h1> About the Musicians </h1>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<p> Welcome to the site.</p>
+    <title> About the Musicians </title>
+    <link rel="stylesheet" type="text/css" href="static/css/about.css">
+ 
+  </head> 
   
-<p> Feel free to peruse how this wonderful couple met, RSVP, tell what you'd like to boogie to on the dance floor and figure out where the wedding will be!</p>
 
-<h2> Test </h2>
+<!-- NAVIGATION BAR BEGINS -->
+  <body class ="body"> 
+    <div id="navbar-container">
+      <ul>
+        <li> <a href="/"> Musical Solutions </a></li>
+        <li> <a href="/about">About the Musicians</a></li>
+        <li> <a href="/playlist"> Sample Playlists</a></li>
+      </ul>
+    </div>
 
-<div class="social-buttons">
-  <a href="https://www.facebook.com" target="_blank "><img class="four " src="file:///Users/emilymould/Desktop/python/myproject/static/images/facebook.png"></a>
-            <a href="https://twitter.com/?lang=en-gb " target="_blank "><img class="four " src="file:///Users/emilymould/Desktop/python/myproject/static/images/Twitter.png"></a>
-            <a href="https://www.pinterest.co.uk " target="_blank "><img class="four " src="file:///Users/emilymould/Desktop/python/myproject/static/images/pinterest.png"></a>
-            <a href="https://www.linkedin.com/in/emily-mould-396a4735/ " target="_blank "><img class="four " src="file:///Users/emilymould/Desktop/python/myproject/static/images/linkedin.png"></a>
-</div>
 
+<!-- LANDING IMAGE CONTAINER -->
+    <div class= "landingimage-container">
+      <div class ="landing-text">
+        <h1> About the Musicians </h1>
+      </div>
+    </div>
+
+
+<!-- CLASSICAL: ROW 1 CONTAINER AFTER IMAGE -->
+    <div id="row1-container">
+      <div class="column1-row1">
+          <a href="https://www.bondquartet.com"><img src= "static/images/classical.jpg"> </a>
+      </div>
+      
+      <div class="column2-row1">
+        <form id="contact">
+          <div class ="form">
+            <h2> BOND </h2> 
+            <p> Together Elena Tan (Violin), Ella Cowie (violin), Elizabeth Heller (viola) and Emma Watkins (cello) complete the line-up of BOND.
+
+              At its launch, this unique all female quartet were hailed as ‘the Spice Girls of Classical music’, and went onto turn the world of classical crossover music on its head, spawning many electric string groups inspired by its unique sound.
+              
+              For your function, the quartet will draw their inspiration from classical, latin, folk, jazz, rock, pop, electro, Indian and middle eastern styles. 
+            </p>
+          </div>
+        </form>
+      </div>
+    </div>
+
+<!-- ROCK: ROW 2 CONTAINER WITH IMAGE-->
+    <div id="row1-container">
+      <div class="column1-row1">
+          <a href="https://www.muse.mu"><img src= "static/images/rock.jpg"></a>
+      </div>
+      
+      <div class="column2-row1">
+        <form id="contact">
+          <div class ="form">
+            <h2> MUSE </h2>
+            <p> Muse are an English rock band from Teignmouth, Devon, formed in 1994. The band consists of Matt Bellamy (lead vocals, guitar, keyboards), Chris Wolstenholme (bass guitar, backing vocals), and Dominic Howard (drums).
+                Muse signed to Maverick Records and released their debut album, Showbiz, in 1999, showcasing Bellamy's falsetto and a melancholic alternative rock style. 
+                Their second album, Origin of Symmetry (2001), incorporated wider instrumentation and romantic classical influences, and earned them a reputation for energetic live performances.</p>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <!-- JAZZ: ROW 3 CONTAINER WITH IMAGE-->
+    <div id="row1-container">
+      <div class="column1-row1">
+        <a href="https://en-gb.facebook.com/postmodernjukebox/"><img src= "static/images/jazz.jpg"> </a>
+      </div>
+      
+      <div class="column2-row1">
+        <form id="contact">
+          <div class ="form">
+            <h2>POSTMODERN JUKEBOX</h2>
+            <p> Postmodern Jukebox, also widely known by the acronym PMJ, is a rotating musical collective founded by arranger and pianist Scott Bradlee in 2011. PMJ is known for reworking popular modern music into different vintage genres, especially early 20th century forms such as swing and jazz. Postmodern Jukebox has amassed over 1 billion YouTube views and 3.6 million subscribers.
+
+                Each week, Postmodern Jukebox releases a new video on YouTube. Although originally most were filmed casually in Bradlee's living room, sets became more elaborate over time. The band has covered songs by artists ranging from Lady Gaga and The Strokes to Katy Perry and the White Stripes. </P>
+          </div>
+        </form>
+      </div>
+    </div>
+
+<!-- FOOTER -->
+    <footer id="footer-container">
+      <p> Copyright &copy; 2019 Emily Mould</p>
+      <div class="social-buttons">
+        <a href="https://www.facebook.com" target="_blank "><img class="four " src="static/images/facebook.png"></a>
+        <a href="https://twitter.com/?lang=en-gb " target="_blank "><img class="four " src="static/images/Twitter.png"></a>
+        <a href="https://www.pinterest.co.uk " target="_blank "><img class="four " src="static/images/pinterest.png"></a>
+        <a href="https://www.linkedin.com/in/emily-mould-396a4735/ " target="_blank "><img class="four " src="static/images/linkedin.png"></a>
+      </div>
+    </footer>
   </body>
 </html>

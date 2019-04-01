@@ -10,12 +10,10 @@
 }
 
 /*-----PAGES/LINKS AT TOP----*/
-
 #navbar-container a:hover {
   color: red;
 }
-
-#navbar-container a:active {
+#navbar-container a:active{
   color: purple;
 }
 
@@ -53,7 +51,7 @@
 .landingimage-container{
   width: 100%;
   height: 400px;
-  background-image: url("../images/spotify.jpg");
+  background-image: url("../images/piano.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -86,21 +84,25 @@
   border-radius: 15px;
   margin-right: 1%;
   color:white;
-  flex: 1;
+  flex: 3;
   order: 1;
   background-color: #4f5b66;
 }
 
-#row1-container .column2-row1{
-  box-sizing: border-box;
+.column1-row1 p{
   text-align: justify;
   line-height: 6mm;
+}
+
+
+#row1-container .column2-row1{
+   box-sizing: border-box;
   padding: 20px;
   margin-bottom: 20px;
   border-radius: 15px;
   margin-right: 1%;
   color:white;
-  flex: 3;
+  flex: 1;
   order: 2;
   background-color:  #4f5b66;
 }

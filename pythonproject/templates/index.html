@@ -1,58 +1,73 @@
 <!DOCTYPE HTML>
-<html>
 
-<head>
+  <html lang="en" dir="ltr">
 
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
 
-  <title> Welcome to the Site </title>
-  <link rel="stylesheet" type="text/css" href="file:///Users/emilymould/Desktop/python/myproject/static/css/welcome.css">
-  <ul>
-      <li> <a href="file:///Users/emilymould/Desktop/python/myproject/templates/index.html">Welcome</a></li>
-      <li> <a href="file:///Users/emilymould/Desktop/python/myproject/templates/about.html">About the Musicians</a></li>
-  </ul>
-</head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <title> Welcome to the Site </title>
+    <link rel="stylesheet" type="text/css" href="static/css/musicalsolutions.css">
+ 
+  </head> 
+ 
 
-<body>
-
-  <h1> Welcome! </h1>
-  <p>This project focusses on the use of <b>Html</b> and <b>Python</b> to try and create a useable platform for indivduals wishing to book a function band.</p>
-  <p> From the first course I have utlisied knowledge of HTML and CSS to make an athestically pleasing website with functionality. </p> 
-  <p> On this page you can see the following demonstarted:</p>
-<p> 
-    <li> Top: The intergration of various HTML pages of this website</li>
-</p>
-<p>
-  <li> Top: Spacing and Padding of pages, text and images</li>
-</p>
-<p>
-  <li> Background: Full Screen image</li>
-</p>
-<p>
-<li> Body: Demonstration of titles</li>
-</p>
-<p>
-  <li> Forground: Demonstration of titles, paragraphs, lists and colours.</li>
-</p>
-<p>
-<li> Forground: A sign-up up </li>
-</p>
-<p>
-  <li> Bottom: The intergration of social buttons </li> 
-</p>
-
-  <h2> Please RSVP below </h2>
-  <input type="text" placeholder="Your song choice">
-  <input type="submit">
+<!-- NAVIGATION BAR BEGINS -->
+  <body class ="body"> 
+    <div id="navbar-container">
+      <ul>
+        <li> <a href="/">Musical Solutions </a></li>
+        <li> <a href="/about">About the Musicians</a></li>
+        <li> <a href="/playlist"> Sample Playlists</a></li>
+      </ul>
+    </div>
 
 
-  <div class="social-buttons">
-    <a href="https://www.facebook.com" target="_blank "><img class="four " src="file:///Users/emilymould/Desktop/python/myproject/static/images/facebook.png"></a>
-              <a href="https://twitter.com/?lang=en-gb " target="_blank "><img class="four " src="file:///Users/emilymould/Desktop/python/myproject/static/images/Twitter.png"></a>
-              <a href="https://www.pinterest.co.uk " target="_blank "><img class="four " src="file:///Users/emilymould/Desktop/python/myproject/static/images/pinterest.png"></a>
-              <a href="https://www.linkedin.com/in/emily-mould-396a4735/ " target="_blank "><img class="four " src="file:///Users/emilymould/Desktop/python/myproject/static/images/linkedin.png"></a>
+<!-- LANDING IMAGE CONTAINER -->
+    <div class= "landingimage-container">
+      <div class ="landing-text">
+        <h1> Musical Solutions </h1>
+      </div>
+    </div>
+
+
+<!-- ROW 1 CONTAINER AFTER IMAGE -->
+    <div id="row1-container">
+      <div class="column1-row1">
+        <h3>About Us</h3>
+        <p> Here at <strong> Musical Solutions </strong> we aim to create a (hypothetical) tailored event perfect for any individual or function. Please take a look at the bands we represent and find out a little more about what they do.</p> 
+        <p> What we can offer you: </p>
+        <ul>
+          <li> Tailored music and/or arrangements of music for your event.</li> 
+          <li> Competitive pricing in line with Musicians Union Rates.</li>
+          <li> Only a small deposit required to secure a date.</li>
+          <li> Musicians will travel to any venue and event packages available.</li> 
+        </ul>
+        <p> While you are here, please do sign up to our mailing list to find out about any public events in your area and how the bands are coming along.</p>
+      </div>
+      <div class="column2-row1">
+        <form action="" method="POST">
+          <form id="contact">
+            <div class ="form">
+              <h2> Join Our Mailing List</h2>
+              <input type="text" placeholder="Your email" name="email" value="{{request.form.email}}">
+              <input type="submit" value="submit">
+            </div>
+          </form>
+        </form>
+      </div>
   </div>
 
+
+<!-- FOOTER -->
+    <footer id="footer-container">
+      <p> Copyright &copy; 2019 Emily Mould</p>
+      <div class="social-buttons">
+        <a href="https://www.facebook.com" target="_blank "><img class="four " src="static/images/facebook.png"></a>
+        <a href="https://twitter.com/?lang=en-gb " target="_blank "><img class="four " src="static/images/Twitter.png"></a>
+        <a href="https://www.pinterest.co.uk " target="_blank "><img class="four " src="static/images/pinterest.png"></a>
+        <a href="https://www.linkedin.com/in/emily-mould-396a4735/ " target="_blank "><img class="four " src="static/images/linkedin.png"></a>
+      </div>
+    </footer>
   </body>
 </html>
